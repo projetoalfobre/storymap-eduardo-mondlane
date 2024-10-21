@@ -1,0 +1,74 @@
+body{background-color: #eeeeee; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;}
+
+/*
+.map { height: calc(100vh - 64px );}
+*/
+
+.map { flex: 1 0 auto;}
+
+
+
+
+.sidenavbg {
+  background-image: url('../images/carnation_928345_c.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: 50% auto;
+}
+
+#sidenavtitle {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  line-height: 1.2em;
+  font-size: 1.5em;
+}
+
+p.my-collapsible-body{
+  line-height: 1.5;
+  padding: 0 .75rem;
+}
+
+.my-collapsible-body a{color: #039be5 !important;padding: 0;display: inline;}
+
+.tag-title{
+  text-transform: uppercase !important;
+  padding: 0.1em;
+  display: inline-block;
+}
+.tag-btn{
+  text-transform: uppercase !important;
+  padding: 0.1em;
+  color: #0d6efd !important;
+  display: inline-block;
+}
+.tag-btn:hover{
+  color: #4590ff !important;
+  cursor: pointer;
+  
+}
+
+nav.black-text {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0),0 3px 1px -2px rgba(0,0,0,0),0 1px 5px 0 rgba(0,0,0,0);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.0),0 3px 1px -2px rgba(0,0,0,0),0 1px 5px 0 rgba(0,0,0,0);
+}
+
+.fixed-action-btn {
+  position: fixed;
+  right: 23px;
+  top: 23px;
+  padding-top: 15px;
+  margin-top: 0;
+  z-index: 997;
+}
+
+.sidebarfooter{margin-left: 1em;position: absolute;bottom: 60px;}
+.example-image{width: 200px !important; height: 200px !important;}
+
+@media only screen and (max-width: 440px) {
+  .example-image{width: 150px !important; height: 150px !important}
+  
+}

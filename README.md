@@ -1,2 +1,3 @@
-# storymap-eduardo-mondlane
-Eduardo Mondlane - StoryMap
+# Eduardo Mondlane - Storymap
+
+https://projetoalfobre.github.io/storymap-eduardo-mondlane/
