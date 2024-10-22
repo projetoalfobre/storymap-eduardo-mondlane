@@ -72,3 +72,6 @@ nav.black-text {
   .example-image{width: 150px !important; height: 150px !important}
   
 }
+
+.topbutton {background-color: #323737; color: #efefef!important;padding: 0.5em; opacity: 0.9;}
+.topbutton:hover {background-color: #3e4444; }
